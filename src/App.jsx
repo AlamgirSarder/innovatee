@@ -8,7 +8,7 @@ function App() {
     <>
       
 
-      <h1>Welcome Tailwind CSS</h1>
+        <h2>Mern Stack Development</h2>
 
 
     </>
