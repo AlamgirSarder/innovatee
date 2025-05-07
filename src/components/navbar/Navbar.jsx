@@ -6,7 +6,7 @@ import Container from "../layout/Container";
 
 function Navbar() {
   return (
-    <div className= "pt-8 absolute top-0 left-0 w-full ">
+    <div className= "pt-8 absolute top-0 left-0 w-full z-50">
      
        <Container>
        <div className="flex justify-between items-center ">

@@ -1,7 +1,7 @@
 
 import './App.css'
 import Banner from './components/banner/Banner'
-import Details from './components/details/Details'
+import Content from './components/content/Content'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
-      <Details/>
+      <Content/>
      
 
 
