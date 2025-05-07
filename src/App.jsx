@@ -1,14 +1,18 @@
 
 import './App.css'
+import Banner from './components/banner/Banner'
+import Details from './components/details/Details'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   
 
   return (
     <>
-      
-
-        <h2>Mern Stack Development</h2>
+      <Navbar/>
+      <Banner/>
+      <Details/>
+     
 
 
     </>
