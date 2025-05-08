@@ -2,6 +2,7 @@
 import React from "react";
 import logo from "../../assets/logo.png"
 import Container from "../layout/Container";
+import Flex from "../layout/Flex";
 
 
 function Navbar() {
@@ -23,10 +24,11 @@ function Navbar() {
            
             </ul>
           </div>
-          <div className="flex items-center">
+          
+          <Flex className="items-center">
             <p className="font-primary text-white text-lg font-medium mr-9">Login</p>
             <a className="font-primary text-lg font-medium py-5 px-12 bg-secondary rounded-md text-[#2C2643]">Register</a>
-          </div>
+          </Flex>
         </div>
        </Container>
      
