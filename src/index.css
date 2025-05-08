@@ -5,6 +5,10 @@
 @theme{
     --font-primary: "DM Sans", sans-serif;
     --font-secondary: "Chivo", sans-serif;
+
     --color-primary: #3639A4;
     --color-secondary: #43E7DF;
+    --color-heading_color: #2C2643;
+    --color-para_color: #645E76;
+
 }
