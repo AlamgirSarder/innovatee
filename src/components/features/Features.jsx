@@ -13,7 +13,7 @@ const Features = () => {
         <Flex className="justify-between">
           <div>
             <div>
-                <img src={featureleft} alt="#featureleft_img" />
+              <img src={featureleft} alt="#featureleft_img" />
             </div>
           </div>
           <div>
@@ -37,7 +37,7 @@ const Features = () => {
                   Safely Security
                 </h2>
                 <p className="font-primary text-lg leading-8 text-para_color w-[220px]">
-                All customer data is encrypted
+                  All customer data is encrypted
                 </p>
               </div>
             </Flex>
@@ -46,10 +46,10 @@ const Features = () => {
               <div>
                 <img src={feature3} alt="#feature1_img" />
                 <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px]">
-                Get Organized
+                  Get Organized
                 </h2>
                 <p className="font-primary text-lg leading-8 text-para_color w-[220px]">
-                From lists to boards, organize work your way. 
+                  From lists to boards, organize work your way.
                 </p>
               </div>
               <div className="flex items-end">
@@ -57,6 +57,7 @@ const Features = () => {
                   Get Started
                 </a>
               </div>
+              
             </Flex>
           </div>
         </Flex>
