@@ -5,6 +5,7 @@ import Content from './components/content/Content'
 import Features from './components/features/Features'
 import Intergration from './components/intergration/Intergration'
 import Navbar from './components/navbar/Navbar'
+import Services from './components/services/Services'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Content/>
       <Features/>
       <Intergration/>
+      <Services/>
      
 
 
