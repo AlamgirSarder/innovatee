@@ -74,6 +74,7 @@ const Intergration = () => {
                 </div>
                 </Flex>
         </Container>
+
     </div>
   )
 }
