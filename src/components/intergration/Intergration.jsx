@@ -72,7 +72,7 @@ const Intergration = () => {
                     </Flex>
 
                 </div>
-                <h1>Alamgir Sarder</h1>
+             
                 
                 </Flex>
         </Container>
