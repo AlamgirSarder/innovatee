@@ -30,8 +30,8 @@ const Intergration = () => {
                 
                 <div>
 
-                    <Flex>
-                    <div className=' flex justify-center items-center w-[332px] h-[142px] rounded-[12px] bg-white mr-[30px]'>
+                    <Flex className="gap-x-[30px]">
+                    <div className=' flex justify-center items-center w-[332px] h-[142px] rounded-[12px] bg-white'>
                         <img src={frame1} alt="#frame1" />
                     </div>
 
@@ -41,12 +41,12 @@ const Intergration = () => {
                     </div>
                     </Flex>
 
-                    <Flex className="mt-[35px]">
-                    <div className=' flex justify-center items-center w-[151px] h-[142px] rounded-[12px] bg-white mr-[30px]'>
+                    <Flex className="mt-[35px] gap-x-[30px]">
+                    <div className=' flex justify-center items-center w-[151px] h-[142px] rounded-[12px] bg-white'>
                         <img src={frame3} alt="#frame3" />
                     </div>
 
-                    <div className=' flex justify-center items-center w-[332px] h-[142px] rounded-[12px] bg-white mr-[30px]'>
+                    <div className=' flex justify-center items-center w-[332px] h-[142px] rounded-[12px] bg-white'>
                         <img src={frame4} alt="#frame4" />
                     </div>
 
@@ -55,13 +55,13 @@ const Intergration = () => {
                     </div>
                     </Flex>
 
-                    <Flex className="mt-[35px]">
-                    <div className=' flex justify-center items-center w-[290px] h-[142px] rounded-[12px] bg-white mr-[30px]'>
+                    <Flex className="mt-[35px] gap-x-[30px]">
+                    <div className=' flex justify-center items-center w-[290px] h-[142px] rounded-[12px] bg-white'>
                         <img src={frame6} alt="#frame6" />
                     </div>
 
                     
-                    <div className=' flex justify-center items-center w-[151px] h-[142px] rounded-[12px] bg-white mr-[30px] '>
+                    <div className=' flex justify-center items-center w-[151px] h-[142px] rounded-[12px] bg-white'>
                         <img src={frame5} alt="#frame5" />
                     </div>
 

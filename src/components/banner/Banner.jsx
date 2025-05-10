@@ -1,12 +1,11 @@
 import React from "react";
 import Container from "../layout/Container";
-import bannerlogo from "../../assets/banner.png"
-import banner_laptop from "../../assets/banner_laptop.png"
+import bannerlogo from "../../assets/banner.png";
+import banner_laptop from "../../assets/banner_laptop.png";
 
 const Banner = () => {
   return (
     <div className="bg-[url(assets/banner.png)] bg-cover bg-center bg-no-repeat">
-
       <Container>
         <div className="pt-[195px] pb-[559px] relative">
           <h1 className="w-[796px] font-secondary font-bold text-[56px] leading-16 text-center mx-auto text-white">
@@ -18,15 +17,24 @@ const Banner = () => {
           </p>
 
           <div className="relative text-center mt-8">
-            <input className="py-5 bg-white rounded-md w-[480px] outline-0 pl-6 placeholder:font-secondary text-[16px] text-[#B4B6C4]"
-             type="text" placeholder="Your business email" />
+            <input
+              className="py-5 bg-white rounded-md w-[480px] outline-0 pl-6 placeholder:font-secondary placeholder:text-[16px] placeholder:text-[#B4B6C4] placeholder:leading-[26px]"
+              type="text"
+              placeholder="Your business email"
+            />
 
-             <a className="absolute top-1 right-[480px] font-primary text-lg font-medium py-[15px] px-7 bg-secondary rounded-md text-[#2C2643]">Try for free</a>
+            <a className="absolute bottom-[3px] right-[472px] font-primary text-lg font-medium py-[15px] px-7 bg-secondary rounded-md text-[#2C2643] capitalize">
+              try for free
+            </a>
           </div>
-        <img className="absolute -bottom-[280px]" src={banner_laptop} alt="#banner_laptop" />
+          <img
+            className="absolute -bottom-[280px]"
+            src={banner_laptop}
+            alt="#banner_laptop"
+          />
         </div>
       </Container>
-    </div> 
+    </div>
   );
 };
 
