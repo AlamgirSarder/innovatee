@@ -5,6 +5,8 @@ import service2 from "../../assets/service2.png";
 import service3 from "../../assets/service3.png";
 import service4 from "../../assets/service4.png";
 import Flex from "../layout/Flex";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
 
 const Services = () => {
   const service_card = [
@@ -62,14 +64,17 @@ const Services = () => {
                   className="font-primary text-[16px] text-primary leading-[26px] font-bold group-hover:text-white"
                   href=""
                 >
-                  Read More
+                  Read More <FaArrowRightLong className="inline-block"/>
                 </a>
               </div>
             ))}
           </Flex>
           <div className="text-center">
-            <a className="font-primary text-lg font-medium py-5 px-12 border border-solid border-primary rounded-md text-primary mt-[80px] inline-block cursor-pointer">Register</a>
+            <a className="font-primary text-lg font-medium py-5 px-12 border border-solid border-primary rounded-md text-primary mt-[80px] inline-block cursor-pointer">
+              Register
+            </a>
           </div>
+          
         </div>
       </Container>
     </div>
