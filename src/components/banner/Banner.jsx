@@ -28,7 +28,7 @@ const Banner = () => {
             </a>
           </div>
           <img
-            className="absolute -bottom-[280px]"
+            className="absolute -bottom-[280px] left-[-40px]"
             src={banner_laptop}
             alt="#banner_laptop"
           />

@@ -70,7 +70,7 @@ const Services = () => {
             ))}
           </Flex>
           <div className="text-center">
-            <a className="font-primary text-lg font-medium py-5 px-12 border border-solid border-primary rounded-md text-primary mt-[80px] inline-block cursor-pointer">
+            <a className="font-primary text-lg not-[]:font-medium py-5 px-12 border border-solid border-primary rounded-md text-primary mt-[80px] inline-block cursor-pointer">
               Register
             </a>
           </div>
