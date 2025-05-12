@@ -15,8 +15,8 @@ const Pricing = () => {
       bgColor: "#E8F2FA",
       hoverColor: "#FFFFFF",
       title: "Personal",
-      dollar: 25,
-      annual_pricing: "35",
+      dollar: 10,
+      annual_pricing: "20",
       list: [
         "Calendar View",
         "Custom Templates",
@@ -30,8 +30,8 @@ const Pricing = () => {
       bgColor: "#B4B6EB",
       hoverColor: "#FFFFFF",
       title: "Team",
-      dollar: 10,
-      annual_pricing: "20",
+      dollar: 25,
+      annual_pricing: "35",
       list: [
         "Timeline Review",
         "Custom fields",
