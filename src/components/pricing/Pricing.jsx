@@ -27,7 +27,7 @@ const Pricing = () => {
     },
     {
       img: pricing2,
-      bgColor: "#FFF0EA",
+      bgColor: "#B4B6EB",
       hoverColor: "#FFFFFF",
       title: "Team",
       dollar: 10,
