@@ -8,6 +8,7 @@ import Intergration from './components/intergration/Intergration'
 import Navbar from './components/navbar/Navbar'
 import Pricing from './components/pricing/Pricing'
 import Services from './components/services/Services'
+import Testimonial from './components/testimonial/Testimonial'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <Services/> 
       <Facts/>
       <Pricing/>
+      <Testimonial/>
      
 
 
