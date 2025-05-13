@@ -12,8 +12,7 @@ const Pricing = () => {
   const card = [
     {
       img: pricing1,
-      bgColor: "#E8F2FA",
-      hoverColor: "#FFFFFF",
+      bgColor: "bg-[#E8F2FA] group-hover:bg-[#ffffff]",
       title: "Personal",
       dollar: 10,
       annual_pricing: "20",
@@ -27,8 +26,7 @@ const Pricing = () => {
     },
     {
       img: pricing2,
-      bgColor: "#B4B6EB",
-      hoverColor: "#FFFFFF",
+      bgColor: "bg-[#B4B6EB] group-hover:bg-[#ffffff]",
       title: "Team",
       dollar: 25,
       annual_pricing: "35",
@@ -42,8 +40,7 @@ const Pricing = () => {
     },
     {
       img: pricing3,
-      bgColor: "#ECE8F9",
-      hoverColor: "#FFFFFF",
+      bgColor: "bg-[#ECE8F9] group-hover:bg-[#ffffff]",
       title: "Enterprise",
       dollar: 50,
       annual_pricing: "40",
@@ -70,19 +67,10 @@ const Pricing = () => {
           </p>
 
           <Flex className="justify-between">
-            {card.map((items, index) => (
-              <div
-                key={index}
-                onMouseEnter={() => setHoverIndex(index)}
-                onMouseLeave={() => setHoverIndex(null)}
-                className="w-[450px] py-10 px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer"
-              >
+            {card.map((items) => (
+              <div className="w-[450px] py-10 px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer">
                 <Flex
-                  className="w-[90px] h-[90px] rounded-full justify-center items-center mx-auto"
-                  style={{
-                    backgroundColor:
-                      hovrIndex === index ? items.hoverColor : items.bgColor,
-                  }}
+                  className={`w-[90px] h-[90px] ${items.bgColor} rounded-full justify-center items-center mx-auto`}
                 >
                   <img src={items.img} alt={`${items.title} pricing icon`} />
                 </Flex>
