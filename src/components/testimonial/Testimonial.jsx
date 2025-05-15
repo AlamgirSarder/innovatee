@@ -21,7 +21,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="mb-[160px] bg-[#F4FAFA] py-[200px] ">
+    <div className=" bg-[#F4FAFA] pt-[208px] pb-[193px]">
       <Container>
         <Flex className="justify-between items-center">
           <div>

@@ -21,13 +21,25 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-[#F7F7FC] pt-[291px] pb-[30px]">
+    <div className="mt-[317px] bg-[#F7F7FC] pb-[30px]">
       <Container>
 
-        
 
+          <div className="relative">
+                
+        <div className=" absolute w-full top-[-149px] left-0 py-[100px] px-[102px] bg-[url(assets/cta_bg.png)] bg-no-repeat">
+          <Flex className="justify-between items-center ">
+            <h2 className="font-secondary font-bold text-[46px] w-[577px] text-white leading-[58px]">
+              Don’t find the answer? contact us for any query.
+            </h2>
 
-        <Flex className="justify-between">
+            <a className="font-primary text-lg font-medium py-5 px-12 bg-secondary rounded-md text-[#2C2643] ">
+              Contact Us
+            </a>
+          </Flex>
+        </div>
+
+        <Flex className="justify-between pt-[291px]">
           <div>
             <img src={footer_logo} alt="#footer_logo" />
             <p className="w-[263px] mt-[26px] font-primary text-[16px] leading-7 text-para_color">
@@ -92,7 +104,10 @@ const Footer = () => {
           </div>
         </Flex>
         <hr className="mt-[86px] h-[4px] bg-[#D2D2D2] border-0 opacity-20" />
-        <p className="font-primary text-[14px] leading-[22px] text-para_color opacity-80 mt-6">© 2024 Innovate - All Right Reserved</p>
+        <p className="font-primary text-[14px] leading-[22px] text-para_color opacity-80 mt-6">
+          &copy; 2024 Innovate - All Right Reserved
+        </p>
+          </div>
       </Container>
     </div>
   );
