@@ -5,7 +5,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import Flex from "../layout/Flex";
 
-import pman5 from "../../assets/pman5.jpg";
+import pman1 from "../../assets/pman1.jpg";
+import pman2 from "../../assets/pman2.jpg";
+import pman3 from "../../assets/pman3.jpg";
+import pman4 from "../../assets/pman4.jpg";
+
 import { FaStar } from "react-icons/fa";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 
@@ -60,7 +64,7 @@ function SliderTestimonial() {
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
             <img
               className="w-full h-full rounded-full"
-              src={pman5}
+              src={pman1}
               alt="#pman5"
             />
           </div>
@@ -96,7 +100,7 @@ function SliderTestimonial() {
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
             <img
               className="w-full h-full rounded-full"
-              src={pman5}
+              src={pman2}
               alt="#pman5"
             />
           </div>
@@ -132,7 +136,7 @@ function SliderTestimonial() {
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
             <img
               className="w-full h-full rounded-full"
-              src={pman5}
+              src={pman3}
               alt="#pman5"
             />
           </div>
@@ -162,12 +166,13 @@ function SliderTestimonial() {
           </Flex>
         </div>
       </div>
+
        <div>
         <div className=" relative w-[687px] bg-white rounded-[20px] pt-[64px] px-[60px] pb-[50px]">
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
             <img
               className="w-full h-full rounded-full"
-              src={pman5}
+              src={pman4}
               alt="#pman5"
             />
           </div>
