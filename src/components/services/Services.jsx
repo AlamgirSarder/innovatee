@@ -11,24 +11,31 @@ import { FaHome } from "react-icons/fa";
 const Services = () => {
   const service_card = [
     {
+
+      bgcolor: "bg-[#FAEAE8] group-hover:bg-[#ffffff]",
       img: service1,
       title: "Plan Product Roadmap",
       description:
         "A product roadmap is a shared source of truth that outlines the vision, direction, priorities",
     },
     {
+      
+       bgcolor: "bg-[#DFE0F7] group-hover:bg-[#ffffff]",
       img: service2,
       title: "Plan Product Roadmap",
       description:
         "A product roadmap is a shared source of truth that outlines the vision, direction, priorities",
     },
     {
+      
+      bgcolor: "bg-[#E8FAF0] group-hover:bg-[#ffffff]",
       img: service3,
       title: "Plan Product Roadmap",
       description:
         "A product roadmap is a shared source of truth that outlines the vision, direction, priorities",
     },
     {
+      bgcolor: "bg-[#E8F2FA] group-hover:bg-[#ffffff]",
       img: service4,
       title: "Plan Product Roadmap",
       description:
@@ -51,9 +58,11 @@ const Services = () => {
           <Flex className="justify-between">
             {service_card.map((item) => (
               <div className="w-[330px] rounded-[20px] border border-solid border-[#DCE7FE] p-9 hover:bg-primary group cursor-pointer transition-all">
-                <div className="flex justify-center items-center w-[92px] h-[92px] rounded-full bg-[#FAEAE8]">
+
+                <div className={`flex justify-center ${item.bgcolor} items-center w-[92px] h-[92px] rounded-full`}>
                   <img src={item.img} alt="#service_img" />
                 </div>
+
                 <h2 className="font-secondary font-bold text-[22px] text-heading_color leading-[34px] mt-[26px] mb-2 group-hover:text-white">
                   {item.title}
                 </h2>

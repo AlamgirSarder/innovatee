@@ -17,7 +17,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <span
-      className="w-[35px] !bg-primary h-[35px] rounded-full !flex justify-center items-center absolute top-[60%] translate-y-[-60%] right-[-40px] cursor-pointer"
+      className="w-[35px] !bg-primary h-[35px] rounded-full !flex justify-center items-center absolute top-[50%] translate-y-[-50%] right-[-40px] cursor-pointer"
       style={{ ...style, display: "block", background: "red" }}
       onClick={onClick}
      >
@@ -30,7 +30,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <span
-      className="w-[35px] !bg-primary h-[35px] rounded-full !flex justify-center items-center absolute top-[60%] translate-y-[-60%] left-[-40px] cursor-pointer"
+      className="w-[35px] !bg-primary h-[35px] rounded-full !flex justify-center items-center absolute top-[50%] translate-y-[-50%] left-[-40px] cursor-pointer"
       style={{ ...style, display: "block", background: "red" }}
       onClick={onClick}
      >
@@ -47,9 +47,10 @@ function SliderTestimonial() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 1, 
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+   
   };
 
   return (
@@ -89,6 +90,7 @@ function SliderTestimonial() {
           </Flex>
         </div>
       </div>
+
       <div>
         <div className=" relative w-[687px] bg-white rounded-[20px] pt-[64px] px-[60px] pb-[50px]">
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
@@ -124,7 +126,43 @@ function SliderTestimonial() {
           </Flex>
         </div>
       </div>
+
       <div>
+        <div className=" relative w-[687px] bg-white rounded-[20px] pt-[64px] px-[60px] pb-[50px]">
+          <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
+            <img
+              className="w-full h-full rounded-full"
+              src={pman5}
+              alt="#pman5"
+            />
+          </div>
+
+          <p className="w-[567px] font-primary text-[#6C6E81] text-[22px] leading-[44px] mb-[37px]">
+            “Wow. Amazing company amazing Expert Manager. They know how to get
+            things done when it comes to online trading.{" "}
+          </p>
+
+          <Flex className="justify-between items-end">
+            <div>
+              <h1 className="font-bold font-secondary text-[24px] text-[#30344E] leading-[36px] mb-1">
+                Robert Fox
+              </h1>
+              <p className="font-primary text-[16px] text-[#30344E] opacity-80 leading-[26px]">
+                Digital Marketer
+              </p>
+            </div>
+
+            <Flex>
+              <FaStar className="text-[#FDB400]" />
+              <FaStar className="text-[#FDB400]" />
+              <FaStar className="text-[#FDB400]" />
+              <FaStar className="text-[#FDB400]" />
+              <FaStar className="text-[#FDB400]" />
+            </Flex>
+          </Flex>
+        </div>
+      </div>
+       <div>
         <div className=" relative w-[687px] bg-white rounded-[20px] pt-[64px] px-[60px] pb-[50px]">
           <div className="absolute top-[-80px] flex justify-center items-center w-[124px] h-[124px] rounded-full outline-[10px] outline-[#F7F7FC]">
             <img
