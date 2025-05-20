@@ -10,7 +10,7 @@ function Navbar() {
     <div className= "pt-8 absolute top-0 left-0 w-full z-50">
      
        <Container>
-       <div className="flex justify-between items-center ">
+       <div className="md:flex justify-between items-center ">
           <div>
             <img src={logo} alt="#logo" />
           </div>
