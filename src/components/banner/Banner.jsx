@@ -8,10 +8,10 @@ const Banner = () => {
     <div className="bg-[url(assets/banner.png)] bg-cover bg-center bg-no-repeat">
       <Container>
         <div className="pt-[195px] pb-[559px] relative">
-          <h1 className="w-[796px] font-secondary font-bold text-[56px] leading-16 text-center mx-auto text-white">
+          <h1 className="md:w-[796px] font-secondary font-bold text-[30px] md:text-[56px] md:leading-16 text-center mx-auto text-white">
             Get your work done with Management Tool
           </h1>
-          <p className="w-[467px] font-primary text-lg font-normal text-center mx-auto leading-[32px] text-white mt-5">
+          <p className="md:w-[467px] font-primary text-lg font-normal text-center mx-auto leading-[32px] text-white mt-5">
             The world's first project management platform that connects
             everything
           </p>
