@@ -87,7 +87,7 @@ function Navbar() {
               <p className="font-primary text-white text-lg font-medium">
                 Login
               </p>
-              <a className="font-primary text-lg font-medium py-5 px-12 bg-secondary rounded-md text-[#2C2643] mt-[10px]">
+              <a className="font-primary text-lg font-medium py-[5px] px-[10px] bg-secondary rounded-md text-[#2C2643] mt-[10px]">
                 Register
               </a>
             </Flex>
