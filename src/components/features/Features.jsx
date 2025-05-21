@@ -10,21 +10,24 @@ const Features = () => {
   return (
     <div className="mb-[55px]">
       <Container>
-        <Flex className="justify-between">
-          <div>
+        <Flex className="justify-between flex-col md:flex-row">
+         
             <div>
               <img src={featureleft} alt="#featureleft_img" />
             </div>
-          </div>
+          
           <div>
-            <h2 className="w-[553px] font-secondary font-bold text-[46px] text-heading_color leading-[58px]">
+            <h2 className="md:w-[553px] font-secondary font-bold  text-[30px] md:text-[46px] text-heading_color leading-[40px] md:leading-[58px] text-center md:text-left">
               We provide features for your Business
             </h2>
 
-            <Flex className="mt-16 justify-between">
+            <Flex className="mt-16 justify-between flex-col md:flex-row">
               <div>
-                <img src={feature1} alt="#feature1_img" />
-                <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px]">
+               <div className="">
+
+                 <img src={feature1} alt="#feature1_img" />
+               </div>
+                <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px] text-center md:text-left">
                   Fast and Easy to use
                 </h2>
                 <p className="font-primary text-lg leading-8 text-para_color w-[220px]">
