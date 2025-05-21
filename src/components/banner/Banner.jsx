@@ -18,12 +18,12 @@ const Banner = () => {
 
           <div className="relative text-center mt-8">
             <input
-              className="py-5 bg-white rounded-md w-[480px] outline-0 pl-6 placeholder:font-secondary placeholder:text-[16px] placeholder:text-[#B4B6C4] placeholder:leading-[26px]"
+              className="py-3 md:py-5 bg-white rounded-md w-full md:w-[480px] outline-0 pl-6 placeholder:font-secondary placeholder:text-[16px] placeholder:text-[#B4B6C4] placeholder:leading-[26px]"
               type="text"
               placeholder="Your business email"
             />
 
-            <a className="absolute bottom-[3px] right-[472px] font-primary text-lg font-medium py-[15px] px-7 bg-secondary rounded-md text-[#2C2643] capitalize">
+            <a className="absolute md:bottom-[3px] right-[5px] md:right-[472px] font-primary text-[12px] md:text-lg font-medium py-[12px] px-[10px] top-[50%] translate-y-[-50%] md:py-[15px] md:px-7 bg-secondary rounded-md text-[#2C2643] capitalize cursor-pointer inline-block">
               try for free
             </a>
           </div>
