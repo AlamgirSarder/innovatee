@@ -44,37 +44,40 @@ const Services = () => {
   ];
 
   return (
-    <div className="mt-[140px] mb-[140px]">
+    <div className="mt-[50px] md:mt-[140px] mb-[80px] md:mb-[140px]">
       <Container>
         <div>
           <div>
             <p className="font-primary font-medium text-[20px] text-[#FF7364] text-center">
               Our Services
             </p>
-            <h2 className="font-secondary font-bold text-heading_color text-[46px] leading-[58px] text-center mt-1 mb-20 ">
+            <h2 className="font-secondary font-bold text-heading_color text-[30px] md:text-[46px] leading-[58px] text-center mt-1 md:mb-20 ">
               How It Works
             </h2>
           </div>
-          <Flex className="justify-between">
+          <Flex className="flex-col md:flex-row justify-between">
             {service_card.map((item) => (
-              <div className="w-[330px] rounded-[20px] border border-solid border-[#DCE7FE] p-9 hover:bg-primary group cursor-pointer transition-all">
+              <div className="mt-[30px] md:mt-0 w-[330px] m-auto rounded-[20px] border border-solid border-[#DCE7FE] p-9 hover:bg-primary group cursor-pointer transition-all">
 
-                <div className={`flex justify-center ${item.bgcolor} items-center w-[92px] h-[92px] rounded-full`}>
+                <div className={`flex justify-center ${item.bgcolor} items-center w-[92px] h-[92px] rounded-full m-auto md:m-0`}>
                   <img src={item.img} alt="#service_img" />
                 </div>
 
-                <h2 className="font-secondary font-bold text-[22px] text-heading_color leading-[34px] mt-[26px] mb-2 group-hover:text-white">
+                <h2 className="font-secondary font-bold text-[22px] text-heading_color leading-[34px] mt-[26px] mb-2 group-hover:text-white text-center md:text-left">
                   {item.title}
                 </h2>
-                <p className="font-primary font-[16px] text-para_color leading-[26px] tracking-[-0.25%] mb-[26px] group-hover:text-white">
+                <p className="font-primary font-[16px] text-para_color leading-[26px] tracking-[-0.25%] mb-[26px] group-hover:text-white text-center md:text-left">
                   {item.description}
                 </p>
-                <a
+                <div className="text-center md:text-left">
+                   <a
                   className="font-primary text-[16px] text-primary leading-[26px] font-bold group-hover:text-white"
                   href=""
                 >
                   Read More <FaArrowRightLong className="inline-block"/>
                 </a>
+                </div>
+               
               </div>
             ))}
           </Flex>
