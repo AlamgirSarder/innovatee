@@ -57,8 +57,8 @@ const Pricing = () => {
   return (
     <div>
       <Container>
-        <div className="pb-[160px]">
-          <h2 className="w-[634px] font-secondary font-bold text-[46px] leading-[58px] text-heading_color text-center mx-auto">
+        <div className="pb-[160px] mt-[50px] md:mt-0">
+          <h2 className="md:w-[634px] font-secondary font-bold text-[30px] md:text-[46px] md:leading-[58px] text-heading_color text-center mx-auto">
             Pricing Designed To Fit Your Business
           </h2>
 
@@ -66,9 +66,9 @@ const Pricing = () => {
             Monthly
           </p>
 
-          <Flex className="justify-between">
+          <Flex className="justify-between flex-col md:flex-row">
             {card.map((items) => (
-              <div className={`w-[450px] py-10 px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer`}>
+              <div className={`md:w-[450px] mt-[30px] md:mt-0 py-10 px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer`}>
                 <Flex
                   className={`w-[90px] h-[90px] ${items.bgColor} rounded-full justify-center items-center mx-auto`}
                 >
