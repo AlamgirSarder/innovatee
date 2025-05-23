@@ -62,7 +62,7 @@ const Pricing = () => {
             Pricing Designed To Fit Your Business
           </h2>
 
-          <p className="font-bold font-secondary text-[24px] leading-[100%] text-primary opacity-80 text-center mb-[77px] mt-[39px]">
+          <p className="font-bold font-secondary text-[24px] leading-[100%] text-primary opacity-80 text-center md:mb-[77px] mt-[39px]">
             Monthly
           </p>
 

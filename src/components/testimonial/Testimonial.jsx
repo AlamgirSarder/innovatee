@@ -20,23 +20,26 @@ const Testimonial = () => {
   };
 
   return (
-    <div className=" bg-[#F4FAFA] pt-[208px] pb-[193px]">
+    <div className=" bg-[#F4FAFA] py-[50px] md:pt-[208px] md:pb-[193px]">
       <Container>
-        <Flex className="justify-between items-center">
+        <Flex className=" flex-col md:flex-row justify-between items-center">
           <div>
             <div>
-              <h2 className="w-[594px] font-secondary text-[46px] font-bold leading-[58px] text-heading_color mb-5">
+              <h2 className="md:w-[594px] font-secondary text-[30px] text-center md:text-left md:text-[46px] font-bold md:leading-[58px] text-heading_color mb-5">
                 What they are talking about us?
               </h2>
-              <p className="w-[503px] font-primary text-para_color text-lg leading-8">
+              <p className="md:w-[503px] font-primary text-para_color text-lg leading-8  text-center md:text-left">
                 testimonials are evidence of customers talking about your
                 product or service in their own words. At their best, they are
                 authentic, descriptive.
               </p>
             </div>
-            <a className="mt-10 mb-[85px] font-primary text-lg font-medium py-5 px-12 bg-primary rounded-md text-white inline-block">
+            <div className="text-center md:text-left">
+                <a className="mt-10 mb-[85px] font-primary text-lg font-medium py-5 px-12 bg-primary rounded-md text-white inline-block">
               Get Started
             </a>
+            </div>
+          
 
             <Flex className="justify-between items-center w-[350px] h-[70px]">
               <div className="flex relative">
