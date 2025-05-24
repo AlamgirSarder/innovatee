@@ -11,11 +11,10 @@ const Features = () => {
     <div className="mb-[55px]">
       <Container>
         <Flex className="justify-between flex-col md:flex-row">
-         
-            <div>
-              <img src={featureleft} alt="#featureleft_img" />
-            </div>
-          
+          <div>
+            <img src={featureleft} alt="#featureleft_img" />
+          </div>
+
           <div>
             <h2 className="md:w-[553px] font-secondary font-bold  text-[30px] md:text-[46px] text-heading_color leading-[40px] md:leading-[58px] text-center md:text-left">
               We provide features for your Business
@@ -23,9 +22,12 @@ const Features = () => {
 
             <Flex className="mt-16 justify-between flex-col md:flex-row">
               <div>
-              
-                 <img src={feature1} alt="#feature1_img" className="m-auto md:m-0"/>
-       
+                <img
+                  src={feature1}
+                  alt="#feature1_img"
+                  className="m-auto md:m-0"
+                />
+
                 <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px] text-center md:text-left">
                   Fast and Easy to use
                 </h2>
@@ -34,7 +36,11 @@ const Features = () => {
                 </p>
               </div>
               <div className="mt-[50px] md:mt-0">
-                <img src={feature2} alt="#feature1_img" className="m-auto md:m-0" />
+                <img
+                  src={feature2}
+                  alt="#feature1_img"
+                  className="m-auto md:m-0"
+                />
                 <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px] text-center md:text-left">
                   Safely Security
                 </h2>
@@ -46,7 +52,11 @@ const Features = () => {
 
             <Flex className="mt-10 flex-col md:flex-row">
               <div className="md:w-[220px]">
-                <img src={feature3} alt="#feature1_img" className="m-auto md:m-0"/>
+                <img
+                  src={feature3}
+                  alt="#feature1_img"
+                  className="m-auto md:m-0"
+                />
 
                 <h2 className="font-secondary text-[22px] font-bold leading-[34px] tracking-[-0.5p%] text-heading_color mt-[14px] mb-[6px] text-center md:text-left">
                   Get Organized
@@ -60,7 +70,6 @@ const Features = () => {
                   Get Started
                 </a>
               </div>
-              
             </Flex>
           </div>
         </Flex>

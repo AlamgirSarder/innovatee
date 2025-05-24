@@ -20,7 +20,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className=" bg-[#F4FAFA] py-[50px] md:pt-[208px] md:pb-[193px]">
+    <div className=" bg-[#F4FAFA] py-[100px] md:pt-[208px] md:pb-[193px]">
       <Container>
         <Flex className=" flex-col md:flex-row justify-between items-center">
           <div>
@@ -35,13 +35,12 @@ const Testimonial = () => {
               </p>
             </div>
             <div className="text-center md:text-left">
-                <a className="mt-10 mb-[85px] font-primary text-lg font-medium py-5 px-12 bg-primary rounded-md text-white inline-block">
-              Get Started
-            </a>
+              <a className="mt-10 mb-[85px] font-primary text-lg font-medium py-5 px-12 bg-primary rounded-md text-white inline-block">
+                Get Started
+              </a>
             </div>
-          
 
-            <Flex className="justify-between items-center w-[350px] h-[70px]">
+            <Flex className="justify-between items-center w-[350px] h-[70px] m-auto md:m-0">
               <div className="flex relative">
                 <div className=" top-0 left-0 w-[58px] h-[58px] bg-[#C4C4C4] rounded-full outline-[2px] outline-white">
                   <img

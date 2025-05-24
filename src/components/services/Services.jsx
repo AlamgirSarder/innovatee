@@ -11,7 +11,6 @@ import { FaHome } from "react-icons/fa";
 const Services = () => {
   const service_card = [
     {
-
       bgcolor: "bg-[#FAEAE8] group-hover:bg-[#ffffff]",
       img: service1,
       title: "Plan Product Roadmap",
@@ -19,15 +18,13 @@ const Services = () => {
         "A product roadmap is a shared source of truth that outlines the vision, direction, priorities",
     },
     {
-      
-       bgcolor: "bg-[#DFE0F7] group-hover:bg-[#ffffff]",
+      bgcolor: "bg-[#DFE0F7] group-hover:bg-[#ffffff]",
       img: service2,
       title: "Plan Product Roadmap",
       description:
         "A product roadmap is a shared source of truth that outlines the vision, direction, priorities",
     },
     {
-      
       bgcolor: "bg-[#E8FAF0] group-hover:bg-[#ffffff]",
       img: service3,
       title: "Plan Product Roadmap",
@@ -58,8 +55,9 @@ const Services = () => {
           <Flex className="flex-col md:flex-row justify-between">
             {service_card.map((item) => (
               <div className="mt-[30px] md:mt-0 w-[330px] m-auto rounded-[20px] border border-solid border-[#DCE7FE] p-9 hover:bg-primary group cursor-pointer transition-all">
-
-                <div className={`flex justify-center ${item.bgcolor} items-center w-[92px] h-[92px] rounded-full m-auto md:m-0`}>
+                <div
+                  className={`flex justify-center ${item.bgcolor} items-center w-[92px] h-[92px] rounded-full m-auto md:m-0`}
+                >
                   <img src={item.img} alt="#service_img" />
                 </div>
 
@@ -70,14 +68,13 @@ const Services = () => {
                   {item.description}
                 </p>
                 <div className="text-center md:text-left">
-                   <a
-                  className="font-primary text-[16px] text-primary leading-[26px] font-bold group-hover:text-white"
-                  href=""
-                >
-                  Read More <FaArrowRightLong className="inline-block"/>
-                </a>
+                  <a
+                    className="font-primary text-[16px] text-primary leading-[26px] font-bold group-hover:text-white"
+                    href=""
+                  >
+                    Read More <FaArrowRightLong className="inline-block" />
+                  </a>
                 </div>
-               
               </div>
             ))}
           </Flex>
@@ -86,7 +83,6 @@ const Services = () => {
               Register
             </a>
           </div>
-          
         </div>
       </Container>
     </div>

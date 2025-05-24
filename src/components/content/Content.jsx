@@ -42,8 +42,11 @@ const Content = () => {
         </Flex>
 
         <Flex className="justify-between md:px-14 mt-[50px] md:mt-[116px] flex-col md:flex-row">
-          {contentdetails.map((item,index) => (
-            <div key={index} className="md:w-[300px] text-center mt-[20px] md:mt-0">
+          {contentdetails.map((item, index) => (
+            <div
+              key={index}
+              className="md:w-[300px] text-center mt-[20px] md:mt-0"
+            >
               <img className="mx-auto" src={item.imgg} alt="#content_icon" />
               <h2 className="font-secondary text-[30px] md:text-[24px] text-heading_color leading-8 font-bold mt-[26px] mb-[12px]">
                 {item.title}

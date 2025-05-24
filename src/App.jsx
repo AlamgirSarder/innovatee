@@ -25,7 +25,6 @@ function App() {
       <Facts/>
       <Pricing/>
       <Testimonial/>
-  
       <Footer/>
      
 
