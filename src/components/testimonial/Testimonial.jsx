@@ -20,7 +20,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className=" bg-[#F4FAFA] py-[100px] md:pt-[208px] md:pb-[193px]">
+    <div className=" bg-[#F4FAFA] py-[100px] md:pt-[208px] md:pb-[193px] overflow-x-hidden">
       <Container>
         <Flex className=" flex-col md:flex-row justify-between items-center">
           <div>

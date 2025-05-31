@@ -69,7 +69,7 @@ const Pricing = () => {
           <Flex className="justify-between flex-col md:flex-row">
             {card.map((items,index) => (
               <div key={index}
-                className={`md:w-[450px] mt-[30px] md:mt-0 py-10 px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer`}
+                className={`md:w-[450px] mt-[30px] md:mt-0 py-10 px-[30px] md:px-[60px] rounded-[20px] border border-solid border-[#DCE7FE] group hover:bg-primary transition-all duration-[0.5s] cursor-pointer`}
               >
                 <Flex
                   className={`w-[90px] h-[90px] ${items.bgColor} rounded-full justify-center items-center mx-auto`}
