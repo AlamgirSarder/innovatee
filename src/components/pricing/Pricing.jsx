@@ -6,8 +6,9 @@ import pricing3 from "../../assets/pricing3.png";
 import Flex from "../layout/Flex";
 import { GiCheckMark } from "react-icons/gi";
 
+
 const Pricing = () => {
-  const [hovrIndex, setHoverIndex] = useState(null);
+
 
   const card = [
     {
